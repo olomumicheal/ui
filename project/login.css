@@ -1,0 +1,41 @@
+body{
+    padding:0;margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+    top:0;
+    display: none;
+}
+.login-area{
+    width: 75%;
+    background-color: black;
+}
+.login-area input{
+    border: 0;outline: none;
+    border-bottom: 5px solid rgb(155, 158, 160);
+    display: block;
+    width: 80%;
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(155, 158, 160);
+    margin-top: 20px;
+
+}
+.item-group{
+    display: flex;
+}
+.item{
+    margin: 10px;
+}
+.b{font-weight: 700!important;}
+.bg-def{background-color: rgb(230, 224, 231);}
+@media screen and (min-width:765px) {
+    .login-area{width:40%;}
+}
